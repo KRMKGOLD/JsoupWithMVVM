@@ -1,4 +1,4 @@
-package kr.co.cotton.myapplication.main
+package kr.co.cotton.myapplication.ui.main
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

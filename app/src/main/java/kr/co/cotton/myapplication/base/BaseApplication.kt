@@ -1,4 +1,4 @@
-package kr.co.cotton.myapplication
+package kr.co.cotton.myapplication.base
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

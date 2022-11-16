@@ -1,4 +1,4 @@
-package kr.co.cotton.myapplication.main
+package kr.co.cotton.myapplication.ui.main
 
 import android.os.Bundle
 import androidx.activity.viewModels

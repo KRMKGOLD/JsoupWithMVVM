@@ -4,7 +4,7 @@
     package="kr.co.cotton.myapplication">
 
     <application
-        android:name=".BaseApplication"
+        android:name=".base.BaseApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -15,7 +15,7 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".main.MainActivity"
+            android:name="kr.co.cotton.myapplication.ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
