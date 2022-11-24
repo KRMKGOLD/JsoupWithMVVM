@@ -15,7 +15,7 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name="kr.co.cotton.myapplication.ui.main.MainActivity"
+            android:name="kr.co.cotton.myapplication.ui.sportsnews.SportsNewsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
