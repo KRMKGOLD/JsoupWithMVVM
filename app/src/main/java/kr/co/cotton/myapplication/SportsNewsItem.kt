@@ -3,14 +3,14 @@ package kr.co.cotton.myapplication
 import androidx.recyclerview.widget.DiffUtil
 
 data class SportsNewsItem(
-    val sportsNews: SportsNews
+    private val sportsNews: SportsNews
 ) {
 
     val href: String = sportsNews.href.orEmpty()
 
     val title: String = sportsNews.title.orEmpty()
 
-    val imgSrc: String = sportsNews.imgSrc.orEmpty()
+    val imgUrl: String = sportsNews.imgUrl.orEmpty()
 
     val description: String = sportsNews.description.orEmpty()
 

@@ -42,7 +42,7 @@ object RemoteSportsNewsDataSource : SportsNewsDataSource {
                     SportsNews(
                         href = href,
                         title = title,
-                        imgSrc = imgSrc,
+                        imgUrl = imgSrc,
                         description = description,
                         sportsType = sportsType,
                         channel = channel

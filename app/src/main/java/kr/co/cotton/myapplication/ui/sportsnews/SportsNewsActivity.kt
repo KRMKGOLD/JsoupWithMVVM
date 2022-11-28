@@ -18,7 +18,6 @@ class SportsNewsActivity : BaseActivity<ActivitySportsNewsBinding>(
         super.onCreate(savedInstanceState)
 
         binding.viewModel = viewModel
-
         binding.rvSportsNews.adapter = SportsNewsItemAdapter()
     }
 }
