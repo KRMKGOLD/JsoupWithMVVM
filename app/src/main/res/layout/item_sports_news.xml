@@ -7,7 +7,7 @@
 
         <variable
             name="item"
-            type="kr.co.cotton.myapplication.SportsNewsItem" />
+            type="kr.co.cotton.myapplication.sportsnews.SportsNewsItem" />
     </data>
 
     <androidx.cardview.widget.CardView

@@ -1,6 +1,7 @@
-package kr.co.cotton.myapplication
+package kr.co.cotton.myapplication.sportsnews
 
 import androidx.recyclerview.widget.DiffUtil
+import kr.co.cotton.myapplication.data.SportsNews
 
 data class SportsNewsItem(
     private val sportsNews: SportsNews

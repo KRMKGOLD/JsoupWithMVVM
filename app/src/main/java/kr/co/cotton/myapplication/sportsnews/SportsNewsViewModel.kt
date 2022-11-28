@@ -1,4 +1,4 @@
-package kr.co.cotton.myapplication.ui.sportsnews
+package kr.co.cotton.myapplication.sportsnews
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -6,7 +6,7 @@ import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.onCompletion
 import kotlinx.coroutines.launch
-import kr.co.cotton.myapplication.SportsNews
+import kr.co.cotton.myapplication.data.SportsNews
 import kr.co.cotton.myapplication.base.BaseViewModel
 import kr.co.cotton.myapplication.data.repository.SportsNewsRepository
 import javax.inject.Inject

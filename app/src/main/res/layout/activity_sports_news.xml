@@ -7,13 +7,13 @@
 
         <variable
             name="viewModel"
-            type="kr.co.cotton.myapplication.ui.sportsnews.SportsNewsViewModel" />
+            type="kr.co.cotton.myapplication.sportsnews.SportsNewsViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.sportsnews.SportsNewsActivity">
+        tools:context=".sportsnews.SportsNewsActivity">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvSportsNews"

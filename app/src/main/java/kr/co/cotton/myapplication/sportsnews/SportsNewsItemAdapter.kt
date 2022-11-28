@@ -1,12 +1,11 @@
-package kr.co.cotton.myapplication.ui.sportsnews
+package kr.co.cotton.myapplication.sportsnews
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import kr.co.cotton.myapplication.SportsNews
-import kr.co.cotton.myapplication.SportsNewsItem
+import kr.co.cotton.myapplication.data.SportsNews
 import kr.co.cotton.myapplication.databinding.ItemSportsNewsBinding
 
 class SportsNewsItemAdapter :

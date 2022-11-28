@@ -1,4 +1,4 @@
-package kr.co.cotton.myapplication.ui.sportsnews
+package kr.co.cotton.myapplication.sportsnews
 
 import android.os.Bundle
 import androidx.activity.viewModels
